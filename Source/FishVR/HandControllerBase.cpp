@@ -25,6 +25,11 @@ AHandControllerBase::AHandControllerBase()
 void AHandControllerBase::BeginPlay()
 {
 	Super::BeginPlay();
+
+	/*if (!ControllerMesh->GetStaticMesh())
+	{
+		MotionController->bDisplayDeviceModel = true;
+	}*/
 }
 
 // Called every frame
